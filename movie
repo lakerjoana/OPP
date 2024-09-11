@@ -1,0 +1,18 @@
+class Movie:
+    #constructor to intialize the object movie
+    def _init_(self, title, director, release_year, genre):
+        self.title = prison break      
+        self.director = Mary Clare
+        self.release_year = 1990  
+        self.genre = thriller 
+
+        #methods of display
+        print("title:", self.title)
+        print("director:", self.director)
+        print("release_year:", self.release_year)
+        print("genre:", self.genre)
+
+        
+
+    def watch(self):
+        return f"Watching '{self.title}' directed by {self.director}."

@@ -1,0 +1,23 @@
+class car:
+
+    #constructor to initialize the phone object
+    def _init_ (self, brand, color, year):
+        self.brand = brand
+        self.year= year
+        self.color = color
+
+        #method to display person data details
+        def display (self):
+            print('brand: '+ self.brand)
+            print('year: '+ self.year)
+            print('color: '+ self.color)
+
+            #methods to call
+            def drive(self, number):
+                print('driving', number)
+
+                #create an object of the car class 
+                toyota = car('prado', 'prado old', 2000)
+
+                #drive the display method
+                toyota.display()

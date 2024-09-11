@@ -1,0 +1,18 @@
+class Food:
+    # Initialize the attributes of the class
+    def __init__(self, amount, recipe, price):
+        self.amount = amount
+        self.recipe = recipe
+        self.price = price
+
+    # Define a method to display the car's details
+    def display_details(self):
+        print("This pizza is", self.amount, "amount")
+        print("This is a ", self.recipe, "pizza")
+        print("The pizza costs $ ", self.price)
+
+# Create an object of the Car class
+pizza = Food("10", 'Chicken', "small")
+
+# Call the method to display the car's details
+pizza.display_details()
